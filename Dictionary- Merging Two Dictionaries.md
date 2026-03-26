@@ -12,7 +12,18 @@ To write a Python program that merges **two dictionaries** and combines their ke
 ## 🧾 Program
 
 Add code here
+```
+keys = input()
+values = input()
+keys_list = eval(keys)
+values_list = eval(values)
+result = dict(zip(keys_list, values_list))
+print(result)
+```
 
 ## Output
+<img width="1200" height="341" alt="image" src="https://github.com/user-attachments/assets/32ec3ed5-7194-475f-97c9-df7a6e4d6677" />
 
 ## Result
+
+Thus the python program to convert the input into dictionary is executed successfully.
