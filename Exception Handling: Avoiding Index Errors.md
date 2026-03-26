@@ -12,7 +12,24 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 Add code here
+```
+try:
+    a = []
+    n = int(input())
+    for i in range(n):
+        b=int(input())
+        a.append(b)
+    print(a)
+    print(a[10])
+  
 
+except IndexError:
+   
+    print("10 is not accepted")
+```
 ## Output
+<img width="1147" height="310" alt="image" src="https://github.com/user-attachments/assets/babbd231-06c0-4dd7-b20d-454785fca477" />
 
 ## Result
+
+Thus the a Python program that handles an IndexError is executed successfully.
